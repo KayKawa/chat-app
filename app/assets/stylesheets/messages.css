@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+}
+
+.sidebar-container{
+  height: 100vh;
+  width: 300px;
+}
+
+.side-bar-header {
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
+}
+.rooms {
+  background-color: #2f3e51;
+  height: calc(100% - 100px);
+  padding: 0 20px;
+}
+
+
+.chat-container {
+  width: calc(100vw - 300px);
+}
+.chat-header {
+  background-color: #fff;
+  height: 100px;
+  padding: 0 40px;
+}
+.chat-messages {
+  background-color: #fafafa;
+  height: calc(100% - 100px - 90px);
+  padding: 46px 40px 0px;
+}
+.form {
+  background-color: #ddd;
+  height: 90px;
+  padding: 20px 40px;
+}
